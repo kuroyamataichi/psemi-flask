@@ -1,32 +1,77 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    background-color: #F9C1CF;
 }
 
 h1 {
-    color:#e81212;
+    color:#FFDD26;
+    text-align: center;
 }
 
 .form {
-    margin-bottom: 20px;
+    background-color: #233B6C;
+    margin: 50px auto;
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form label[for="title"] {
+    color: #009D5B;
+}
+
+.form label[for="details"] {
+    color: #F1E266;
 }
 
 input[type="text"] {
+    background-color:#F9C1CF;
+    color:#233B6C;
+    margin: 5px auto;
     padding: 5px;
-    margin: 5px 0;
 }
 
 input[type="submit"] {
+    background-color: #EF4050;
+    color: white;
     padding: 5px 10px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
 .task {
-    background-color: #fff;
+    background-color: #233B6C;
+    margin: 30px auto;
+    max-width: 500px;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.task h2 {
+    color: #009D5B;
+    margin: 0 0 5px 0;
+}
+
+.task p {
+    color: #F1E266;
+    margin: 0 0 5px 0;
+}
+
+.task a {
+    color: white;
+    background-color: #EF4050;
+    margin-right: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
